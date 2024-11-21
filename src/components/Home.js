@@ -48,13 +48,13 @@ const DonationShareHomePage = () => {
               onClick={() => setCurrentView('LoginPage')} // Navigate to ItemList
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition flex items-center shadow-lg"
             >
-              List Your Donations <ArrowRight className="ml-2" />
+              Available Donations <ArrowRight className="ml-2" />
             </button>
             <button
               onClick={() => setCurrentView('donationForm')} // Navigate to DonationForm
               className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition flex items-center shadow-lg"
             >
-              Create Account <CircleCheck className="ml-2" />
+              Donate Now <CircleCheck className="ml-2" />
             </button>
           </div>
         </div>
@@ -111,7 +111,7 @@ const DonationShareHomePage = () => {
             onClick={() => setCurrentView('donationForm')} // Navigate to DonationForm
             className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition shadow-lg"
           >
-            Create Account
+            Donate Now
           </button>
         </div>
       </section>
