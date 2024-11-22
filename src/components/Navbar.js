@@ -66,7 +66,7 @@ const Navbar = () => {
                 hover:scale-105"
                 onClick={() => setIsMenuOpen(false)}
               >
-                <DonateIcon className="w-5 h-5" />
+                <UserIcon className="w-5 h-5" />
                 <span>Donate Now</span>
               </a>
               <a 
@@ -76,7 +76,7 @@ const Navbar = () => {
                 hover:scale-105"
                 onClick={() => setIsMenuOpen(false)}
               >
-                <UserIcon className="w-5 h-5" />
+                <DonateIcon className="w-5 h-5" />
                 <span>Available Donations</span>
               </a>
             </div>
