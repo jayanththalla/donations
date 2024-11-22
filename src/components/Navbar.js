@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
             <div className="p-2 space-y-2">
               <a 
-                href="/donate" 
+                href="/create" 
                 className="block px-4 py-3 text-blue-700 hover:bg-blue-100 
                 rounded-md transition-colors duration-200 text-center font-medium flex items-center space-x-2 
                 hover:scale-105"
@@ -70,14 +70,14 @@ const Navbar = () => {
                 <span>Donate Now</span>
               </a>
               <a 
-                href="/create" 
+                href="/login" 
                 className="block px-4 py-3 text-blue-700 hover:bg-blue-100 
                 rounded-md transition-colors duration-200 text-center font-medium flex items-center space-x-2 
                 hover:scale-105"
                 onClick={() => setIsMenuOpen(false)}
               >
                 <UserIcon className="w-5 h-5" />
-                <span>Create Account</span>
+                <span>Available Donations</span>
               </a>
             </div>
           </div>
