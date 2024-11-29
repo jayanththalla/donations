@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const MONGODB_URI = "mongodb+srv://jay:jayanththalla33@cluster0.qfpuofn.mongodb.net/donations?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB URI
+const MONGODB_URI = "mongodb+srv://jayanththalla33:jayanththalla33@cluster0.qfpuofn.mongodb.net/donations?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB URI
 const MONGODB_DB = "donations"; // Replace with your database name
 
 let cachedClient = null;
